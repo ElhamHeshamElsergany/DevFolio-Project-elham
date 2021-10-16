@@ -1,0 +1,229 @@
+.body{
+    background-color: #f5f5f5;
+    box-sizing: border-box;
+}
+#background{
+    background-image: url(images/intro-bg.jpg);
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    
+}
+.layout{
+    background-color: rgba(0, 0, 0, .6);
+    width: 100%;
+    height: 100%;
+
+}
+
+.iam-h1{
+    font-size: 4.5rem;
+}
+.free-span{
+    font-size: 30px;
+}
+#navbar{
+    z-index: 9999999999;
+   
+}
+.navbar-ul {
+    font-size: 20px;
+    color: white !important;
+}
+.nav-link{
+    color: white !important;
+    text-decoration: none;
+}
+.nav-link:hover{
+text-decoration: underline;
+}
+.name{
+    font-size: 20px;
+    font-weight: 700;
+}
+.about-me2:after{
+    content: "";
+    position: absolute;
+    background-color: #0078ff;
+    width: 115px;
+    height: 3px;
+    top: 39px;
+    left: 0;
+}
+p{
+    line-height: 36px;
+    font-size: 19px;
+}
+#btnUp
+{
+    position: fixed;
+    bottom: 10px;
+    right: 20px;
+    z-index: 99999;
+    color:#f5f5f5;
+    background-color: #1d334b;
+    display: none;
+}
+/* servecis */
+.ser{
+    font-size: 50px;
+    font-weight: 700;
+}
+.icon-border{
+    border: 12px solid #589deb;
+    padding:40px;
+    font-size: 30px;
+    background-color: #ffff;
+}
+.web-design:hover .icon-border{
+
+    border:12px solid #9bb9e5;
+    background-color:#589deb ;
+}
+.web-design:hover i{
+    color: white;
+}
+.line:after{
+    content: "";
+    position: absolute;
+    background-color: #0078ff;
+    width: 50px;
+    height: 3px;
+    top: 35px;
+    left: 42%;
+}
+/* counter */
+#counter{
+    background-image: url(images/post-3.jpg);
+    width: 100%;
+    background: fixed center cover ;
+    background-repeat: no-repeat;
+   
+}
+.layout-2{
+    background-color: rgba(16, 61, 184, 0.5);
+    width: 100%;
+}
+.icon2{
+    border: 10px solid #ffff;
+    padding: 20px;
+}
+/* PORTFOLIO */
+.right-icon{
+    font-size: 50px;
+    color: #0078ff;
+}
+.color-word{
+    color: #0078ff;
+}
+.card-img-top{
+    transform: scale(1);
+    transition: all 1s ease;
+}
+.card{
+    overflow: hidden;
+}
+.card:hover .card-img-top{
+  transform: scale(1.2);
+
+}
+/* end of PORTFOLIO */
+/* slider */
+.slid{
+    background-image: url(images/overlay-bg.jpg) !important;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+   
+.slider{
+    background-color: #0077ff71;
+    width: 100%;
+
+} 
+.carousel-indicators button{
+    height: 10px !important;
+    width: 10px !important;
+    background-color: #ffff !important;
+    border-radius: 50% !important;
+
+}
+    /*end of slider */
+   
+    .card-body2{
+text-align: left !important;
+
+ }
+ .after{
+    width: 60px;
+    height: 30px;
+    background-color: #0078ff;
+    color: #ffff;
+    border-radius: 4px;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+ }
+ .footer-photo{
+     width: 10%;
+ }
+ /* end of blog  */
+ /* contect */
+ .icon3{
+    border: 4px solid #0078ff;
+    padding: 9px;
+    cursor: pointer;
+}
+ .icon3:hover{
+    border: 4px solid #9bb9e5;
+    background-color: #0078ff;
+}
+.icon3:hover i{
+    color: #ffff;
+}
+.send{
+    padding: 17px;
+    margin: 14px;
+    color: #ffffff;
+    background-color:#0078ff ;
+    border-radius: 20%;
+    border: #0078ff;
+    cursor: pointer;
+}
+.send:hover{
+    background-color: #5d89cc;
+    border: solid 2px #e1e4e9 ;
+}
+.contact-me{
+    background-image: url(images/overlay-bg.jpg);
+    background-attachment: fixed;
+    background-position: center center;
+    width: 100%;
+
+}
+.layoutt{
+    width: 100%;
+    height: 100%;
+    background-color: #0077ff71;
+}
+/* end of contect */
+/* footer */
+.footer-1{
+   
+    background-color: #0062d3;
+}
+/* end of footer  */
+@media (min-width: 768px){
+.col-md-6 {
+    flex: 0 0 auto;
+    width: 50%;
+}
+.col-md-4 {
+    flex: 0 0 auto;
+    width: 33.3333333333%;
+    flex-wrap: wrap;
+}
+}
